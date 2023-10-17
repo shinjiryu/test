@@ -1,0 +1,157 @@
+body{
+    background-image: url(../../image/foto/gif.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans', sans-serif;
+    position: inherit;  
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+}
+.logo a{
+    font-size: 100%;
+    font-weight:1000;
+    float:left;
+    font-family: courier;
+    color: white;
+}
+.menu{
+    float:right;
+}
+nav{
+    width: 110%;
+    margin: auto;
+    display: flex;
+    line-height: 55px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:black;
+    z-index: 1;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60)
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float:left;
+}
+nav ul li a{
+    font-size: 15px;
+    color: rgb(89,240,250);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+}
+.tbl-biru{
+    background: rgb(89,150,87);
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 10px 15px 10px 15px;
+    color:#ffc600;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl-biru:hover{
+    background: #ffc600;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.container h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.container label{
+    text-align: left;
+    color: #90caf9;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+section{
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: blue;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: blue;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-kuning{
+    background:black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-kuning:hover{
+    background:white;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 1px 1px #dedede;   
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px #aca9a9;
+}
